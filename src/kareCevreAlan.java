@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class kareCevreAlan {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int a, cevre, alan = 0;
+        double a, cevre, alan = 0;
 
-        System.out.println("Karenin bir kenarının uzunluğunu giriniz: ");
-        a = scan.nextInt();
+        System.out.print("Karenin bir kenarının uzunluğunu giriniz: ");
+        a = scan.nextDouble();
 
         cevre = 4*a;
         alan = a*a;

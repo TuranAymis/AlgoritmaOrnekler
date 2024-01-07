@@ -6,7 +6,7 @@ public class kureAlanHacim {
         double r,alan,hacim=0;
         double pi = 3.14;
 
-        System.out.println("Dairenin yarı çapını giriniz: ");
+        System.out.print("Dairenin yarı çapını giriniz: ");
         r = scan.nextDouble();
 
         alan = 4*pi*r*r;

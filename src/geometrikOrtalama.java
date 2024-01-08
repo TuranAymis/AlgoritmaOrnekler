@@ -15,8 +15,10 @@ public class geometrikOrtalama { //çalışmıyor
                 n++;
             }
         }while (sayi != 0);
-
+        
         ort = Math.pow(ort, 1.0/(double) n);
         System.out.println("Geometrik ortalama: "+ort);
+
+        scan.close();
     }
 }

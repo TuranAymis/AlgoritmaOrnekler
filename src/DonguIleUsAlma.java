@@ -10,6 +10,7 @@ public class DonguIleUsAlma {
         sayi = scan.nextInt();
         System.out.print("Üs giriniz: ");
         us = scan.nextInt();
+        scan.close();
 
         for(int i = 1; i<=us; i++){
             sonuc *=sayi;
